@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    left: 50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);       
+}
+p{
+    color: black;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+#screen1{
+    
+    width: 536px;
+    height: 142px;
+    background: #181F32;
+    border-radius: 12px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: Segoe UI;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    padding-right: 50px;
+    padding-top: 34px;
+  
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 536px;
+    height: 487px;
+    background: #252D44;
+    border-radius: 12px;
+    padding-top: 50px;
+   
+   
+}
+.row{
+    padding-left: 23px;
+    
+}
+.row button {
+    width: 100px;
+    height: 60px;
+    border-radius: 12px;
+    background: #EAE3DB;
+    margin-left: 15px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #3B4664;
+    transition: 0.2s all linear;
+     
+}
+.row button:hover{
+    background-color: rgb(238, 209, 170);
+}
+.row button:active{
+    background-color: rosybrown;
+}
+
+
+#delete{
+    background: #647299;
+    color: white;
+}
+#reset{
+    width: 222.44px;
+    height: 60px;
+    border-radius: 11.52px;
+    background: #647299;
+    color: white;
+
+    
+}
+#equal{
+    width: 222.44px;
+    height: 60px;
+    left: 243.56p;
+    border-radius: 11.52px;
+    background: #D13F30;
+    color: white;
+
+}
